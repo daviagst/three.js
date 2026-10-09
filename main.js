@@ -11,7 +11,7 @@ document.body.appendChild(renderer.domElement)
 scene.background = new THREE.Color('#00040a')
 renderer.render(scene, camera)
 
-const light= new THREE.HemisphereLight(0xffffff, 0x444444, 3)
+const light = new THREE.HemisphereLight(0xffffff, 0x444444, 3)
 scene.add(light)
 const luzDirecional = new THREE.DirectionalLight(0xffffff, 3);
 luzDirecional.position.set(3, 3, 5);
